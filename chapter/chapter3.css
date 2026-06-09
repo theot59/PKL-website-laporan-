@@ -55,78 +55,20 @@ main {
     margin-top: 150px;
 }
 
-h2 {
+.terimakasih {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 0 auto 200px auto;
+    text-align: center;
+}
+
+.terimakasih h1 {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: 600;
-    font-size: 48.83px;
-    color: #90C42F;
+    font-size: 76.29px;
+    margin-bottom: 5px; 
     line-height: 110%;
-}
-
-/* Tools Section */
-.tools {
-    display: flex;
-    max-width: 1100px;
-    margin: 0 auto 200px auto;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.tools-card {
-    display: flex;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.tools-card h3 {
-    font-size: 31.25px;
-    margin: 0;
-    font-weight: 600;
-}
-
-.tools-card:nth-child(even) {
-    display: flex;
-    flex-direction: row-reverse;
-    text-align: right;
-}
-
-.tools-card img {
-    width: 200px;
-}
-
-.tools-card:nth-child(odd) .tools-card-content {
-    margin-left: 30px;
-}
-
-.tools-card:nth-child(even) .tools-card-content {
-    margin-right: 30px;
-}
-
-/* Tugas Section */
-.tugas {
-    display: flex;
-    max-width: 1100px;
-    margin: 0 auto 200px auto;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.tugas h2 {
-    margin: 0;
-}
-
-.tugas-content {
-    margin-bottom: 30px;
-}
-
-.tugas-content-img img {
-    width: 480px;
-    margin-right: 15px;
-    border: 5px solid #90C42F;
-    border-radius: 10px;
-}
-
-.tugas-content h3 {
-    font-size: 31.25px;
-    font-weight: 600;
+    font-weight: 900;
+    color: #90C42F;
 }
